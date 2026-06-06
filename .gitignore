@@ -1,0 +1,24 @@
+# Maven target
+target/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+.nb-gradle/
+nbactions.xml
+nb-configuration.xml
+
+# NetBeans private directory
+nbproject/private/
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Crash logs
+*.log
