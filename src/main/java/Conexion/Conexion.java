@@ -23,7 +23,7 @@ public class Conexion {
             System.out.println("Conexión exitosa");
 
         } catch (ClassNotFoundException e) {
-            JOptionPane.showMessageDialog(null, "No se encontró el driver MySQL:\n" + e);
+            JOptionPane.showMessageDialog(null, "No se encontró el driver MySQL:\n\n" + e);
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Error al conectar a MySQL:\n" + e);
         }
