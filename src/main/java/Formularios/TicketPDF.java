@@ -29,7 +29,9 @@ public class TicketPDF {
                     "dd-MM-yyyy_HH-mm-ss"
             ).format(new Date());
 
-            String ruta = "Ticket_Cafelui_" + fechaArchivo + ".pdf";
+            String tempDir = System.getProperty("java.io.tmpdir");
+            java.io.File archivoTemp = new java.io.File(tempDir, "Ticket_Cafelui_" + fechaArchivo + ".pdf");
+            String ruta = archivoTemp.getAbsolutePath();
 
             Document documento = new Document();
 

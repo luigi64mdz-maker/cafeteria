@@ -22,3 +22,7 @@ desktop.ini
 
 # Crash logs
 *.log
+
+# Generated PDFs
+*.pdf
+
